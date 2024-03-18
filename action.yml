@@ -1,4 +1,4 @@
-name: 'Suffix'
+name: 'Versy Suffix'
 description: 'Generate Suffix based on the current branch'
 
 inputs:
