@@ -2,7 +2,7 @@ name: 'Suffix'
 description: 'Generate Suffix based on the current branch'
 
 inputs:
-  script_branch:
+  script-branch:
     description: 'Name of the branch in suffix repository'
     required: false
     default: 'main'
@@ -14,6 +14,6 @@ runs:
   using: "composite"
   steps:
     - id: suffix
-      uses: astorDev/versy/suffix/marketplaced@main
+      uses: astorDev/versy/suffix/marketplacing@main
       with:
-        script_branch: 'main'
+        script_branch: {{ inputs.script-branch }}
