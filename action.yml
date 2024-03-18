@@ -16,4 +16,4 @@ runs:
     - id: suffix
       uses: astorDev/versy/suffix/marketplacing@main
       with:
-        script_branch: ${{ inputs.script-branch }}
+        script-branch: ${{ inputs.script-branch }}
